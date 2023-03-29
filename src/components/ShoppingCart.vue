@@ -6,7 +6,7 @@ const props = defineProps<{
 <template>
 	<div class="cart-container">
 		<Icon name="cart"></Icon>
-		<div class="quantity-badge">
+		<div v-if="quantity > 0" class="quantity-badge">
 			{{ quantity }}
 		</div>
 	</div>
