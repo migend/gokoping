@@ -1,0 +1,36 @@
+@import './utils/reset.css';
+@import './utils/fonts.css';
+
+:root {
+  --white: #ffffff;
+  --white-soft: #f4f4f4;
+  --white-softer: #f8f8f8;
+  --gray: #909090;
+  --gray-soft: #efefef;
+  --gray-softer: #c2c3c5;
+  --gray-light: #f0f0f0;
+  --gray-lighter: #e5e5e5;
+  --blue-lighter: #e8f0f2;
+  --green: #49c747;
+  --red: #e6395e;
+  --yellow: #ffd800;
+  --black: #000000;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  line-height: 0;
+}
+
