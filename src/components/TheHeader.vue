@@ -32,6 +32,10 @@ header {
 	background: var(--blue-lighter);
 }
 
+h2 {
+	margin-top: 2rem;
+}
+
 @media only screen and (min-width: 992px) {
 	header {
 		height: 55rem;
@@ -66,6 +70,7 @@ h2 {
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 2rem;
+	margin-top:0
 }
 
 .breadcrumb ul {
