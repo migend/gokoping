@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     MainNavigation: typeof import('./src/components/MainNavigation.vue')['default']
     Navigation: typeof import('./src/components/Navigation.vue')['default']
     Pagination: typeof import('vue3-carousel')['Pagination']
+    ProductInfo: typeof import('./src/components/ProductInfo.vue')['default']
     QuantitySelector: typeof import('./src/components/QuantitySelector.vue')['default']
     Rating: typeof import('./src/components/Rating.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

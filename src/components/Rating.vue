@@ -61,6 +61,11 @@ li {
 .rating-container {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.rating-options {
+	line-height: 3rem;
 }
 
 .star {

@@ -36,7 +36,6 @@ const onSizeChange = (event: Event) => {
 		display: flex;
 		align-items: center;
 		width: 100%;
-		justify-content: end;
 	}
 
 	span {
